@@ -1,0 +1,9 @@
+name: Enforce Pull Request Description Length
+description: Check that a PR description is filled out
+inputs:
+  minLength:
+    description: 'Specific minimum length the descrption must be.'
+    required: false
+runs:
+  using: node12
+  main: dist/index.js
