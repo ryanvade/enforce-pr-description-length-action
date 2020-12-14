@@ -11,14 +11,14 @@ A specific minimum length the description must be.
 ## Example Usage
 
 ```
-- name: Enforce Jira Issue Key in Pull Request Title
+- name: Enforce Pull Request Description Length
   uses: ryanvade/enforce-pr-description-length-action@v1
 ```
 
 ## Example Usage with a specific min length
 
 ```
-- name: Enforce Jira Issue Key in Pull Request Title
+- name: Enforce Pull Request Description Length
   uses: ryanvade/enforce-pr-description-length-action@v1
   with:
     minLength: 5
