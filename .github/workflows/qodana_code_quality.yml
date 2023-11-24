@@ -35,7 +35,7 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Archive coverage data
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: jest-coverage-data
           path: .qodana/code-coverage
