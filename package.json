@@ -1,6 +1,6 @@
 {
   "name": "@ryanvade/enforce-pr-description-length-action",
-  "version": "2.0.0",
+  "version": "1.1.2",
   "description": "Enforce Pull Request Description Lengths",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "pullrequests",
     "jira"
   ],
-  "author": "Ryan Owens <RyanOwens@linux.com>",
+  "author": "Ryan Owens <ryan@ryanowens.info>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryanvade/enforce-pr-description-length-action/issues"
