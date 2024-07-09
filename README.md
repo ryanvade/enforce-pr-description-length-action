@@ -12,14 +12,14 @@ A specific minimum length the description must be.
 
 ```
 - name: Enforce Pull Request Description Length
-  uses: ryanvade/enforce-pr-description-length-action@v1.1
+  uses: ryanvade/enforce-pr-description-length-action@v1.1.2
 ```
 
 ## Example Usage with a specific min length
 
 ```
 - name: Enforce Pull Request Description Length
-  uses: ryanvade/enforce-pr-description-length-action@v1.1
+  uses: ryanvade/enforce-pr-description-length-action@v1.1.2
   with:
     minLength: 5
 ```
